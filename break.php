@@ -6,7 +6,7 @@ $member[3] = "해방이화";
 $member[4] = "1 student";
 $i = 1; $limit = 3;
 
-foreach($member as $key => $value)
+foreach($member as $key => $value) //member변수에서 key와 value값을 하나씩 가져온다. 
 {
     if($i > $limit)
     {
