@@ -6,3 +6,4 @@ function print_copyright()
     print "</FONT>";
 }
 print_copyright();
+?>
