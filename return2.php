@@ -1,6 +1,6 @@
 <?php
 list($year, $month, $day) = get_today(); //list는 배열을 뜯어주는 역할 
-print $year."년".$month."월".$day."일";
+print $year."년".$month."월".$day."일"; //도트 연산자를 통해 한 번에 출력한다. 
 
 
 function get_today()

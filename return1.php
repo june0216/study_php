@@ -14,7 +14,7 @@ else{
     print "Byte를 초과하였습니다. ";
 }
 
-function checkByte($str, $byte)
+function checkByte($str, $byte) //범위를 넘어가는지 체크해주는 함수 
 {
     $strlen = strlen($str);
 
